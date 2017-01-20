@@ -1,0 +1,22 @@
+.main {
+  background-image: url("../img/1.jpg");
+  background-size: cover; }
+  .main .page-title {
+    background-color: rgba(145, 145, 145, 0.3); }
+    .main .page-title p {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      margin: 0; }
+      .main .page-title p i {
+        color: #BAC7D1; }
+  .main .page-1 h1 {
+    line-height: 2em;
+    margin-top: 1em;
+    margin-bottom: 1.5em; }
+    .main .page-1 h1 span {
+      font-size: 72px; }
+  @media only screen and (max-width: 992px) {
+    .main .page-1 .container {
+      padding-left: 45px; } }
+
+/*# sourceMappingURL=main.css.map */

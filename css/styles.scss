@@ -1,0 +1,15 @@
+@import "mixins";
+@import "navbar.css";
+@import "buttons.css";
+@import "main.css";
+@import "footer.css";
+
+body {
+	overflow-x: hidden;
+	@include responsive(wide-screens) {
+		font-size: 12px;
+	}
+	@include responsive(medium-screens) {
+		font-size: 10px;
+	}
+}

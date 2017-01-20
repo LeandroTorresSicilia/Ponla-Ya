@@ -1,0 +1,46 @@
+@import "mixins";
+@import "../sass/custom-variables";
+
+footer {
+	background-color: $footer-bg-color;
+	padding-top: 2em;
+	.footer-logo {
+		width: 6.5em;
+	}
+	.row {
+		position: relative;
+		left: 10em;
+		a {
+			color: $footer-dark-color;
+			border-bottom: 3px solid $footer-dark-color;
+			&:hover {
+				color: $navbar-default-link-hover-color;
+				border-color: $navbar-default-link-hover-color;
+				text-decoration: none;
+			}
+			.fa {
+				position: relative;
+				top: -0.1em;
+			}
+		}
+		
+	}
+	h4 {
+		display: inline-block;
+	}
+	.social {
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
+		a {
+			margin-right: 3em;
+			color: #fff;
+			&:hover {
+				color: $navbar-default-link-hover-color;
+			}
+		}
+	}
+	.copyright {
+		padding-top: 1em;
+		background-color: $footer-dark-color;
+	}
+}

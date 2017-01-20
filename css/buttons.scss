@@ -1,0 +1,13 @@
+@import "mixins";
+@import "../sass/custom-variables";
+.arrow-button {
+	background-color: $navbar-default-bg;
+	border: none;
+	padding: 1em 1.5em;
+	position: relative;
+	top: 12em;
+	&:hover {
+		color: $navbar-default-link-hover-color;
+		transform: scale(1.1, 1.1);
+	}
+}

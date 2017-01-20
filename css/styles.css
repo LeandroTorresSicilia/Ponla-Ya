@@ -1,0 +1,14 @@
+@import url(navbar.css);
+@import url(buttons.css);
+@import url(main.css);
+@import url(footer.css);
+body {
+  overflow-x: hidden; }
+  @media only screen and (max-width: 1200px) {
+    body {
+      font-size: 12px; } }
+  @media only screen and (max-width: 992px) {
+    body {
+      font-size: 10px; } }
+
+/*# sourceMappingURL=styles.css.map */

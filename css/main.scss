@@ -1,0 +1,33 @@
+@import "mixins";
+@import "../sass/custom-variables";
+
+.main {
+	background-image: url("../img/1.jpg");
+	background-size: cover;
+	.page-title {
+		background-color: $title-bg;
+		p {
+			padding-top: 1em;
+			padding-bottom: 1em;
+			margin: 0;
+			i {
+				color: #BAC7D1;
+			}
+		}
+	}
+	.page-1 {
+		h1 {
+			line-height: 2em;
+			margin-top: 1em;
+			margin-bottom: 1.5em;
+			span {
+				font-size: 72px;
+			}
+		}
+		.container {
+			@include responsive(medium-screens) {
+				padding-left: 45px;
+			}
+		}
+	}
+}

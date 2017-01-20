@@ -1,0 +1,50 @@
+.navbar {
+  border-color: transparent;
+  border-radius: 0; }
+
+.navbar-nav {
+  float: none; }
+
+nav.navbar-1 ul.nav {
+  padding-top: 1em;
+  font-weight: lighter; }
+  nav.navbar-1 ul.nav .nav-logo {
+    margin-right: 10em; }
+    nav.navbar-1 ul.nav .nav-logo .logo {
+      display: inline-block;
+      width: 6.5em; }
+  nav.navbar-1 ul.nav .nav-link {
+    font-size: 1.5em;
+    margin-right: 4em;
+    padding: 0 0 0.85em 0; }
+    nav.navbar-1 ul.nav .nav-link:hover {
+      border-bottom: 2px solid #0070D2; }
+
+nav.navbar-2 {
+  margin-bottom: 0;
+  background-color: rgba(145, 145, 145, 0.3);
+  padding: 1.5em 0; }
+  nav.navbar-2 ul.nav {
+    width: 41em;
+    margin-left: auto;
+    margin-right: auto; }
+    @media only screen and (max-width: 1200px) {
+      nav.navbar-2 ul.nav {
+        width: 50em; } }
+    nav.navbar-2 ul.nav li {
+      margin-right: 4em; }
+      nav.navbar-2 ul.nav li p {
+        display: inline-block;
+        margin-left: 1em; }
+    nav.navbar-2 ul.nav li.recargar-saldo {
+      margin-right: 0; }
+      @media only screen and (max-width: 992px) {
+        nav.navbar-2 ul.nav li.recargar-saldo span.fa-stack {
+          position: relative;
+          top: -0.5em; } }
+      @media only screen and (min-width: 1200px) {
+        nav.navbar-2 ul.nav li.recargar-saldo p {
+          position: relative;
+          top: 1em; } }
+
+/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,66 @@
+@import "mixins";
+@import "../sass/custom-variables";
+
+.navbar {
+	border-color: transparent;
+	border-radius: 0;
+}
+.navbar-nav {
+	float: none;
+}
+nav.navbar-1 {
+	ul.nav {
+		padding-top: 1em;
+		font-weight: lighter;
+		.nav-logo {
+			margin-right: 10em;
+			.logo {
+				display: inline-block;
+				width: 6.5em;
+			}
+		}
+		.nav-link {
+			font-size: 1.5em;
+			margin-right: 4em;
+			padding: 0 0 0.85em 0;
+			&:hover {
+				border-bottom: 2px solid $navbar-default-link-hover-color;
+			}
+		}
+	}
+}
+nav.navbar-2 {
+	margin-bottom: 0;
+	background-color: rgba(#919191, 0.3);
+	padding: 1.5em 0;
+	ul.nav {
+		@include responsive(wide-screens) {
+			width: 50em;
+		}
+		width: 41em;
+		margin-left: auto;
+		margin-right: auto;
+		li {
+			margin-right: 4em;
+			p {
+			display: inline-block;
+			margin-left: 1em;
+			}
+		}
+		li.recargar-saldo {
+			span.fa-stack {
+				@include responsive(medium-screens) {
+					position: relative;
+					top: -0.5em;
+				}
+			}
+			margin-right: 0;
+			@media only screen and (min-width: 1200px) {
+				p {
+					position: relative;
+					top: 1em;
+				}
+			}
+		}	
+	}
+}
